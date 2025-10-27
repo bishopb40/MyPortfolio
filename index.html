@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bishop Brown Portfolio </title>
+     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" aria-label="Third navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color:red ; font-family: 'Franklin Gothic Medium';">CodeWithBishop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#service">Service</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#About">About</a></li>
+                  <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <main>
+      <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval = "2000">
+            <!-- <svg
+              aria-hidden="true"
+              class="bd-placeholder-img"
+              height="100%"
+              preserveAspectRatio="xMidYMid slice"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              ></rect>
+            </svg> -->
+
+            <img class="w-100 " style="height: 500px;"  src="image/image (11).jpg" alt="">
+            <div class="container">
+              <div class="carousel-caption text-start ">
+                <h1 >Full Stack Developer.</h1>
+                <p class="opacity-75">
+                  Previously Senior Full Stack Developer at Stripe and Tech Lead at Vercel.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Sign up today</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval = "2000" >
+            <!-- <svg
+              aria-hidden="true"
+              class="bd-placeholder-img"
+              height="100%"
+              preserveAspectRatio="xMidYMid slice"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              ></rect>
+            </svg> -->
+            <img class="w-100  " style="height: 500px;" src="image/image (12).jpg" alt="">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Mobile App Developer.</h1>
+                <p>
+                 Crafting exceptional mobile experiences with React Native, Swift, and Flutter
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval = "2000">
+            <!-- <svg
+              aria-hidden="true"
+              class="bd-placeholder-img"
+              height="100%"
+              preserveAspectRatio="xMidYMid slice"
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              ></rect>
+            </svg> -->
+
+            <img class="w-100" style="height: 500px;" src="image/image (6).jpg" alt="">
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Enterprise E-commerce Platform.</h1>
+                <p>
+                 A high-performance e-commerce solution handling 100K+ daily transactions with real-time inventory and ML-powered recommendations.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Hero -->
+      <div class="container-fluid col-xxl-8 px-5 py-5" id="About">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="image/image (8).jpg"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Bootstrap Themes"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1  class=" display-5 fw-bold text-body-emphasis lh-1 mb-3">
+             CODING WITH BISHOP BROWN
+            </h1>
+            <p class="lead">
+              <h1>Full Stack Developer</h1>
+                I craft end-to-end 
+                solutions with 8+ years of experience building scalable applications and leading development teams.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-secondary btn-lg px-4 me-md-2">
+                Login
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-primary btn-lg px-4"
+              >
+                Signup
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Cards -->
+ <div class="container text-center mb-5 mt-5" id="service">
+ <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="image/image.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title bg-info" style="color: white;">Frontend Development</h5>
+        <p class="card-text">
+          <div class="card">
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item">Modern React Architectures</li>
+            <li class="list-group-item">Performance Optimization</li>
+            <li class="list-group-item">Responsive & Interactive UIs</li>
+          </ul>
+        </div>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="image/image1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title bg-secondary" style="color: white;">Backend Development</h5>
+        <p class="card-text"><div class="card">
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item">API Design & Development</li>
+            <li class="list-group-item">Database Architecture</li>
+            <li class="list-group-item">Real-time Systems</li>
+          </ul>
+        </div>
+      </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="image/image (2).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title bg-success" style="color: white;">DevOps & Cloud</h5>
+        <p class="card-text"><div class="card">
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item">AWS Infrastructure</li>
+            <li class="list-group-item">CI/CD Pipelines</li>
+            <li class="list-group-item">Scalable Architecture</li>
+          </ul>
+        </div>
+      </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- last card -->
+ <div class="container ">
+ <div class="row ">
+<div class=" col-md-12">
+    <div class="card bg-primary justify-content-center align-items-center">
+      <div class="card-body" style="color: white;">
+        <h5 class="card-title " >Real-time Analytics Platform</h5>
+        <p class="card-text">A scalable analytics platform processing 1M+ events per minute with real-time dashboards and ML-powered insights.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card bg-success">
+        <dl>
+          <ul>
+            <h5>Frontend Features</h5>
+            <li>Real-time Data Visualization</li>
+            <li>Interactive Dashboards</li>
+            <li>Custom Chart Components</li>
+            <li>Data Export Tools</li>
+          </ul>
+        </dl>
+        <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+  <div class="col-md-4 ms-auto">
+    <div class="card bg-success">
+       <dl>
+          <ul>
+            <h5>Backend Pipeline</h5>
+            <li>Apache Kafka Streams</li>
+            <li>ClickHouse Analytics DB</li>
+            <li>Python Data Processing</li>
+            <li>Redis Time Series</li>
+          </ul>
+        </dl>
+        <a href="#" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+
+    <div class="col-md-4 ms-auto">
+    <div class="card bg-success">
+       <dl>
+          <ul>
+            <h5 >Performance Metrics</h5>
+            <li>1M+ Events/Minute Processing</li>
+            <li>Sub-second Query Response</li>
+            <li>99.99% Data Accuracy</li>
+          </ul>
+        </dl>
+        <a href="#" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+</main>
+<!-- footer -->
+ <footer class="bg-dark mt-5 p-5 text-center text-white">
+  <p>&copy; CODING WITH BISHOP</p>
+  <p><a href="mailto: codingwithbishop@gmail.com" class="text-white" id="contact">Email Us</a></p>
+
+ </footer>
+  
+     <script
+      src="../assets/dist/js/bootstrap.bundle.min.js"
+      class="astro-vvvwv3sm"
+    ></script>
+</body>
+</html>
